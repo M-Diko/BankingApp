@@ -5,6 +5,7 @@
     <title>Bank App</title>
     <link rel="icon" href="assets/logo.ico">
     <link rel="stylesheet" href="style.css"/>
+    <script src="app.js"></script>
 </head>
 <body>
    <div class="header">
@@ -20,43 +21,42 @@
         <button id="signin" onclick="signin()">Sign in</button>
    </div>
    <div class="forgot_pin">
-        <button id="forgot" onclick="signin()">Forgot Pin</button>
+        <button id="forgot" onclick="forgot()">Forgot Pin</button>
    </div>
    <br>
 
    <div class="cardrow">
-        <div class="card1">
+        <div class="card1" onclick="prepaid()">
             <img src="assets/mobile.jpg" id="img1" alt="mobile" width="100" height="100">
             <p style="text-align:center;">Buy Prepaid Mobile</p>
         </div>
 
-        <div class="card2">
+        <div class="card2" onclick="power()">
             <img src="assets/electricity.png" id="img2" alt="electricity" width="100" height="100">
             <p style="text-align:center;">Buy Electricity</p>
         </div>
    </div>
    <br>
    <div class="cardrow">
-        <div class="card1">
-            <img src="assets/transfer.jpg" id="img3" alt="mobile" width="100" height="100">
+        <div class="card1" onclick="transfer()">
+            <img src="assets/transfer.jpg" id="img3" alt="transfer" width="100" height="100">
             <p style="text-align:center;">Transfer Money</p>
         </div>
 
-        <div class="card2">
-            <img src="assets/stop.jpg" id="img4" alt="electricity" width="100" height="100">
+        <div class="card2" onclick="stop()">
+            <img src="assets/stop.jpg" id="img4" alt="stop" width="100" height="100">
             <p style="text-align:center;">Stop Card</p>
         </div>
    </div>
    <br>
-   <div class="cardrow">
-        <div class="card1">
-            <img src="assets/mobile.png" id="img5" alt="mobile" width="100" height="100">
-            <p style="text-align:center;">Buy Prepaid Mobile</p>
+   <div class="cardrow" >
+       <div class="card2" onclick="debit()">
+            <img src="assets/debit.JPG" id="img6" alt="debit" width="100" height="100">
+            <p style="text-align:center;">Debit Orders</p>
         </div>
-
-        <div class="card2">
-            <img src="assets/electricity.png" id="img6" alt="electricity" width="100" height="100">
-            <p style="text-align:center;">Pay Electricity</p>
+       <div class="card1" onclick="settings()">
+            <img src="assets/settings.jpg" id="img5" alt="settings" width="100" height="100">
+            <p style="text-align:center;">App Settings</p>
         </div>
    </div>
    <br>
