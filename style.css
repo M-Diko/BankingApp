@@ -198,24 +198,11 @@ img {
 }
 
 /*home page styling*/
-.container {
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-  font-size: 3.5em;
-}
-
-.header2 {
-    background-color: blue;
-    height:200px;
-}
-
-.content {
-    background-color: yellow;
-    max-height: 1200px;
-    overflow-y: scroll;
-}
-
-.footer2 {
-    background-color: blue;
+.ComingSoon {
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    color: #4169e1;
+    line-height: 0.65;
 }
